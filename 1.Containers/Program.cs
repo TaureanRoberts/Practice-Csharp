@@ -23,9 +23,10 @@ namespace _1.Containers
         public int Charisma;
     }
 
-    public class Character : Stat
+    public class Character
     {
-        Dictionary<string, Stat> SavingThows = new Dictionary<string, Stat>();
+        Dictionary<string, Stat> SavingThrows = new Dictionary<string, Stat>();
+
         public int ExperiencePoints;
         public string CharacterName;
         public int Level;
