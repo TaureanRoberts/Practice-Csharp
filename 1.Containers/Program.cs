@@ -23,13 +23,12 @@ namespace _1.Containers
         public int Charisma;
     }
 
-    public class Character
+    public class Character : Stat
     {
         Dictionary<string, Stat> SavingThows = new Dictionary<string, Stat>();
-
         public int ExperiencePoints;
         public string CharacterName;
-        public int level;
+        public int Level;
 
     }
     class Program
@@ -38,12 +37,12 @@ namespace _1.Containers
         static void Main(string[] args)
         {
             Dictionary<string, Stat> Stats = new Dictionary<string, Stat>();
-            Stats.Add("Strength", new Stat());
-            Stats.Add("Dexterity", new Stat());
-            Stats.Add("Constitution", new Stat());
-            Stats.Add("Intelligence", new Stat());
-            Stats.Add("Wisdom", new Stat());
-            Stats.Add("Charisma", new Stat());
+            Stats.Add("Strength", new Stat() { Name = "strength", Value = 10, Description = ""});
+            Stats.Add("Dexterity", new Stat() {Name = "dexterity", Value = 10, Description = ""});
+            Stats.Add("Constitution", new Stat() {Name = "constitution", Value = 10, Description = ""});
+            Stats.Add("Intelligence", new Stat() {Name = "intelligence", Value = 10, Description = ""});
+            Stats.Add("Wisdom", new Stat() {Name = "wisdom", Value = 10, Description = ""});
+            Stats.Add("Charisma", new Stat() {Name = "charisma", Value = 10, Description = ""});
             //Using the string as a key store the specified stat
         }
     }
