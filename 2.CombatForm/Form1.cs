@@ -33,10 +33,11 @@ namespace _2.CombatForm
             Stats.Add("Wisdom", new Stat() { Name = "wisdom", Value = 9, Description = "Knowledgable" });
             Stats.Add("Charisma", new Stat() { Name = "charisma", Value = 10, Description = "How likable are you" }); //Displays one info of this Stat
             //Using the string as a key store the specified stat
-            foreach (var info in Stats)
+            foreach (var info in Stats) // need a list to show the info for the stat.
             {
-                string[] statSize = {info.Value.Name, info.Value.Value.ToString(), info.Value.Description};
-                richTextBox1.Text = statSize;
+                string[] statList;
+                richTextBox1.Text = info.Value.Name;
+                
             }
         }
 
