@@ -18,7 +18,7 @@ namespace _2.CombatForm
         {
             InitializeComponent();
         }
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -26,30 +26,29 @@ namespace _2.CombatForm
         private void button1_Click(object sender, EventArgs e)
         {
             Dictionary<string, Stat> Stats = new Dictionary<string, Stat>();
-            Stats.Add("Strength", new Stat() { Name = "strength", Value = 10, Description = "" });
-            Stats.Add("Dexterity", new Stat() { Name = "dexterity", Value = 10, Description = "" });
-            Stats.Add("Constitution", new Stat() { Name = "constitution", Value = 10, Description = "" });
-            Stats.Add("Intelligence", new Stat() { Name = "intelligence", Value = 10, Description = "" });
-            Stats.Add("Wisdom", new Stat() { Name = "wisdom", Value = 10, Description = "" });
-            Stats.Add("Charisma", new Stat() { Name = "charisma", Value = 10, Description = "" });
+            Stats.Add("Strength", new Stat() { Name = "strength", Value = 6, Description = "How strong are you" });
+            Stats.Add("Dexterity", new Stat() { Name = "dexterity", Value = 11, Description = "How agile are you" });
+            Stats.Add("Constitution", new Stat() { Name = "constitution", Value = 5, Description = "Stats for health" });
+            Stats.Add("Intelligence", new Stat() { Name = "intelligence", Value = 4, Description = "How smart are you" });
+            Stats.Add("Wisdom", new Stat() { Name = "wisdom", Value = 9, Description = "Knowledgable" });
+            Stats.Add("Charisma", new Stat() { Name = "charisma", Value = 10, Description = "How likable are you" }); //Displays one info of this Stat
             //Using the string as a key store the specified stat
             foreach (var info in Stats)
             {
-                Console.WriteLine(info.Key);
-                Console.WriteLine(info.Value.Value);
-                Console.WriteLine(info.Value.Description);
+                string[] statSize = {info.Value.Name, info.Value.Value.ToString(), info.Value.Description};
+                richTextBox1.Text = statSize;
             }
-            Console.WriteLine();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Scrub you are, hmmmm.");
+            Console.WriteLine(); //Makes a space between info
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
     }
     public class Stat
