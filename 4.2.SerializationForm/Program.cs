@@ -11,7 +11,13 @@ namespace _4._2.SerializationForm
     {
         public int Experience;
         public int Level;
+
+        public void makecharacter()
+        {
+
+        }
     }
+    
     static class Program
     {
         /// <summary>
