@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("4.Serialization")]
+[assembly: AssemblyTitle("4.2.SerializationForm")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("The Academy Of Interactive Entertainment")]
-[assembly: AssemblyProduct("4.Serialization")]
+[assembly: AssemblyProduct("4.2.SerializationForm")]
 [assembly: AssemblyCopyright("Copyright © The Academy Of Interactive Entertainment 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("92bb54ee-ac73-4460-8470-90cf28eafaf3")]
+[assembly: Guid("d61303ec-37bf-42c4-88ef-2816ce0d0a66")]
 
 // Version information for an assembly consists of the following four values:
 //
