@@ -5,6 +5,7 @@ using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization.Configuration;
 
 namespace _5.StatePattern
 {
@@ -26,7 +27,7 @@ namespace _5.StatePattern
     {
         public void OnEnter(IContext other)
         {
-
+            
         }
 
         public void UpdateState(IContext other)
