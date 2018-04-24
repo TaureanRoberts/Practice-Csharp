@@ -37,11 +37,11 @@ namespace _3.Interfaces
     }
     public class Assassin : Entity
     {
+        
     }
 
     public class Ninja : Entity
     {
-
     }
 
     public class Nord : Entity
