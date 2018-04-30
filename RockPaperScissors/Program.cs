@@ -11,10 +11,21 @@ namespace RockPaperScissors
         public string PlayerChoice;
         public string ComputerChoice;
         public List<string> VictoryConditions;
-        public  const string Rock = "Rock", Paper = "Paper", Scissors = "Scissors";
+        public const string Rock = "Rock", Paper = "Paper", Scissors = "Scissors";
         public void SelectPlayerChoice(string other)
         {
-
+            switch (PlayerChoice)
+            {
+                case Rock:
+                    PlayerChoice = Rock;
+                    break;
+                case Paper:
+                    PlayerChoice = Paper;
+                    break;
+                case Scissors:
+                    PlayerChoice = Scissors;
+                    break;
+            }
         }
         public void SelectComputerChoice()
         {
@@ -29,10 +40,21 @@ namespace RockPaperScissors
                 case Scissors:
                     ComputerChoice = Scissors;
                     break;
+                default:
+                    break;
             }
         }
         public bool CheckForVictory()
         {
+            if (PlayerChoice == ComputerChoice)
+            {
+                string draw = "Its a Draw";
+                return true;
+            }
+            else (PlayerChoice != ComputerChoice)
+            {
+                return true;
+            }
             return false; //Place holder. Havent reached this part yet.
         }
 
