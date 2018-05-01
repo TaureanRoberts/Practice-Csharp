@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Win32;
 
 namespace RockPaperScissors
 {
@@ -31,30 +32,19 @@ namespace RockPaperScissors
         {
             switch (ComputerChoice)
             {
-                case Rock:
-                    ComputerChoice = Rock;
-                    break;
+                case Rock: //when Rock is choosen
+                    ComputerChoice = Rock; //its choice is rock
+                    break; //break out of it.
                 case Paper:
                     ComputerChoice = Paper;
                     break;
                 case Scissors:
                     ComputerChoice = Scissors;
                     break;
-                default:
-                    break;
             }
         }
         public bool CheckForVictory()
         {
-            if (PlayerChoice == ComputerChoice)
-            {
-                string draw = "Its a Draw";
-                return true;
-            }
-            else (PlayerChoice != ComputerChoice)
-            {
-                return true;
-            }
             return false; //Place holder. Havent reached this part yet.
         }
 
