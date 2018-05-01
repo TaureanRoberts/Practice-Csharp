@@ -6,71 +6,17 @@ using System.Windows.Forms;
 
 namespace BackpackProject
 {
-    public interface IInventoryItems
+    public interface IConsumeable
     {
-        string name();
-        int HealthAffected { get; set; }
+
+        int HealthHGained { get; set; }
     }
-    public class StatusChange : IInventoryItems
+
+    public class Item
     {
-        public int HealthAffected
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string name()
-        {
-            throw new NotImplementedException();
-        }
+        public string name;
     }
-    public class Weapon : IInventoryItems
-    {
-        public int HealthAffected
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
 
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string name()
-        {
-            throw new NotImplementedException();
-        }
-    }
-    public class Protection : IInventoryItems
-    {
-        public int HealthAffected
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string name()
-        {
-            throw new NotImplementedException();
-        }
-    }
     static class Program
     {
         /// <summary>

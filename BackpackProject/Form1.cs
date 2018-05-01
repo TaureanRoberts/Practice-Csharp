@@ -17,29 +17,5 @@ namespace BackpackProject
             InitializeComponent();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void listView2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void listView3_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void listView4_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void listView5_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void listView6_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
