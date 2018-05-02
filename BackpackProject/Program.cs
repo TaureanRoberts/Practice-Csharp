@@ -6,15 +6,26 @@ using System.Windows.Forms;
 
 namespace BackpackProject
 {
-    public interface IConsumeable
+    public interface IEquipable
     {
-
-        int HealthHGained { get; set; }
+        int ItemScore { get; set; }
     }
-
-    public class Item
+    public interface IBackpackable
+    {
+        bool IsEquipped();
+        
+    }
+    public interface IConsumable
+    {
+        int ItemCount { get; set; }
+    }
+    public class Backpack : IBackpackable
     {
         public string name;
+        public bool IsEquipped()
+        {
+            throw new NotImplementedException();
+        }
     }
 
     static class Program
