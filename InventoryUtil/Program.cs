@@ -10,17 +10,10 @@ namespace InventoryUtil
     {
 
     }
-
-    public interface IEquipable
+    public class Item : IStoreable
     {
 
     }
-
-    public class Weapons
-    {
-
-    }
-
     static class Program
     {
         /// <summary>
