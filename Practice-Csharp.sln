@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackpackProject", "BackpackProject\BackpackProject.csproj", "{B2523025-3675-430A-9FF3-C015B95E9A7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAssessment", "CSharpAssessment\CSharpAssessment.csproj", "{8364C37B-7F18-464D-B942-698810C7EFCB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryUtil", "InventoryUtil\InventoryUtil.csproj", "{8E06D4FA-7428-4BD6-A9A1-364E73FA9A61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,10 +65,10 @@ Global
 		{B2523025-3675-430A-9FF3-C015B95E9A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2523025-3675-430A-9FF3-C015B95E9A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2523025-3675-430A-9FF3-C015B95E9A7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8364C37B-7F18-464D-B942-698810C7EFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8364C37B-7F18-464D-B942-698810C7EFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8364C37B-7F18-464D-B942-698810C7EFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8364C37B-7F18-464D-B942-698810C7EFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E06D4FA-7428-4BD6-A9A1-364E73FA9A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E06D4FA-7428-4BD6-A9A1-364E73FA9A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E06D4FA-7428-4BD6-A9A1-364E73FA9A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E06D4FA-7428-4BD6-A9A1-364E73FA9A61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
